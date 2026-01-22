@@ -2,7 +2,7 @@
 
 <div align="center">
   <img src="ising_model.gif" width="600" />
-  <p><em>Real-time visualization of ferromagnetic domain formation near the critical temperature ($T_c \approx 2.27$).</em></p>
+  <p><em>Real-time visualization of ferromagnetic domain formation near the critical temperature.</em></p>
 </div>
 
 ## Overview
