@@ -2,6 +2,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 
+plt.style.use('dark_background')
+
 class IsingModel:
     def __init__(self, size=50, temp=2.27, interaction_strength=1.0):
 
@@ -60,11 +62,10 @@ def animate_ising():
         img.set_data(model.grid)
         return img,
 
-    # Create Animation
+    #Create Animation
     ani = animation.FuncAnimation(fig, update, frames=200, interval=50, blit=True)
     
     plt.show()
 
 if __name__ == "__main__":
     animate_ising()
-
